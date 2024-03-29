@@ -4,7 +4,7 @@ require_relative "lib/MyHem2/version"
 
 Gem::Specification.new do |spec|
   spec.name = "MyHem2"
-  spec.version = 1.0.0
+  spec.version = "1.0.0"
   spec.authors = ["yarikxan"]
   spec.email = ["yarikxan2@gmail.com"]
 
