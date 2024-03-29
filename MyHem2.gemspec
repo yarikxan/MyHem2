@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Смотреть формат файлов"
   spec.description = "Попытка написать гем, который будет искать в кодировке файла специальные магические слова, и, основываясь на них, предполагать расширение файла"
-  spec.homepage = ""
+  spec.homepage = "https://github.com/yarikxan/MyHem2"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
