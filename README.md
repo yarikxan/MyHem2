@@ -3,11 +3,14 @@
 funny gem for filechecking
 
 ## Installation
-clone, build, install
+clone from github
+gem build MyHem2.gemspec 
+gen install MyHem2-1.0.0.gem
 
 ## Usage
 
-require, MyHem2.checkfile(fn:string) -> format:string / nil(if unknown format) / error if notexist
+require MyHem2
+MyHem2.checkfile(fn:string) -> format:string / nil(if unknown format) / error if notexist
 
 formats: jpg, png, avi, wav, psd, mp3, rar, zip, pdf, tar, mp4
 
